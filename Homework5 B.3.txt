@@ -1,0 +1,7 @@
+There are several ways I could verify the code.
+
+One way to check is to run a really large number of trials because this effectively increases the "sample size" of the population. Thus increasing the probability that the numbers generated are truly random. The chances for error in a larger sample size is reduced.
+
+Another way is to run the dealer code multiple times, and average the results of the total sucesses and failures from all of the instances. This might take a little bit more complexity within the code, but would pay off in creating more varient seeds for the random number generators.
+
+Another way to compare the results of this program is to run it using different random number generators. If the results from all the different random number generators are similar, this can give you confidence that your code is consistent.
